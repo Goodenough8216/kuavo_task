@@ -92,7 +92,7 @@ class YOLONode:
         self.process_video()
         
     def load_yolo_model(self):
-        model = YOLO("detection/best_cpu.pt")
+        model = YOLO("src/detection/best_cpu.pt")
         rospy.loginfo("YOLOv11 model loaded.")
         return model  # 返回模型对象
 
