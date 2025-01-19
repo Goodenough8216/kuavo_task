@@ -1,0 +1,12 @@
+<launch>
+    <!-- YOLO 节点 -->
+    <node name="yolo_node" pkg="detection" type="yolo_node.py" output="screen">
+        <param name="video_path" value="/home/wjc/catkin_ws/inputvideo.mp4" />
+        <param name="output_path" value="/home/wjc/catkin_ws/outputvideo.mp4" />
+        <param name="conf_threshold" value="0.45" />
+        <param name="iou_threshold" value="0.5" />
+    </node>
+
+    <!-- 订阅者节点 -->
+    <!-- <node name="detected_centers_subscriber" pkg="detection" type="detected_centers_subscriber.py" output="screen" /> -->
+</launch>
