@@ -27,3 +27,4 @@ src是ros项目文件，可以发送kalman+YOLO检测结果到/detected_centers�
 
 如果幸运的话，你将看到rosrun终端中的运行INFO和rostopic终端中的坐标信息，还有opencv的图像。  
 不过我的项目是cpu的torch，运行的可能会很慢，在我的虚拟机中（16个cpu核心），hz大概是0.2:(
+## 3.完成的任务
