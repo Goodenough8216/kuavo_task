@@ -10,7 +10,7 @@ src是ros项目文件，可以发送kalman+YOLO检测结果到/detected_centers�
 新建终端于{work_space}/src
 
 `catkin_create_pkg detection rospy std_msgs sensor_msgs cv_bridge geometry_msgs`
-(`ultralytics`这个包需要手动在`package.xml`中加入，已经替你添加了)
+(`ultralytics`这个包需要手动在`package.xml`中加入，已经添加了)
 
 然后在IDE中手动加入你的pkg下面的所有文件，或者用CLI
 
